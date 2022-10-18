@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">-->
+  <link rel="stylesheet" href="./style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+    <p class="message"></p>
+  </header>
+  <div class="container my-5">
+    <div class="row">
+      <!-- Timeblocks go here -->
+      <ol class="container col-2">
+        <li class="hour">9:00am</li>
+        <li class="hour">10:00am</li>
+        <li class="hour">11:00am</li>
+        <li class="hour">12:00pm</li>
+        <li class="hour">1:00pm</li>
+        <li class="hour">2:00pm</li>
+        <li class="hour">3:00pm</li>
+        <li class="hour">4:00pm</li>
+        <li class="hour">5:00pm</li>
+      </ol>
+      <ol class="container col-8">
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description9a" placeholder="" />
+        </li>
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description10a" placeholder="" />
+        </li>
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description11a" placeholder="" />
+        </li>
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description12p" placeholder="" />
+        </li>
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description1p" placeholder="" />
+        </li>
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description2p" placeholder="" />
+        </li>
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description3p" placeholder="" />
+        </li>
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description4p" placeholder="" />
+        </li>
+        <li class="time-block" class="button" class="effect" class="past" class="present" class="future">
+          <input type="text" id="description5p" placeholder="" />
+        </li>
+      </ol>
+      <ol class="container col-2">
+        <li class="saveBtn"><button id="save-button9a">save</button></li>
+        <li class="saveBtn"><button id="save-button10a">save</button></li>
+        <li class="saveBtn"><button id="save-button11a">save</button></li>
+        <li class="saveBtn"><button id="save-button12p">save</button></li>
+        <li class="saveBtn"><button id="save-button1p">save</button></li>
+        <li class="saveBtn"><button id="save-button2p">save</button></li>
+        <li class="saveBtn"><button id="save-button3p">save</button></li>
+        <li class="saveBtn"><button id="save-button4p">save</button></li>
+        <li class="saveBtn"><button id="save-button5p">save</button></li>
+      </ol>
+    </div>
+  </div>
+
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
