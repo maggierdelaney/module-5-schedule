@@ -18,12 +18,16 @@ setInterval(displayDate, 1000);
 //             backgroundColor: "#ff6961",
 //             color: "white",
 //         })
+//         console.log(.hour);
+//         console.log(currentHour);
 //     } else if {
 //     (".hour" > currentHour) {
 //         $(".future").animate({
 //             backgroundColor: "#77dd77",
 //             color: "white",
 //         })
+//         console.log(.hour);
+//         console.log(currentHour);
 //     }
 // } else if {
 //     (".hour" < currentHour) {
@@ -31,6 +35,8 @@ setInterval(displayDate, 1000);
 //         backgroundColor: "#d3d3d3",
 //         color: "white",
 //     })
+//     console.log(.hour);
+//     console.log(currentHour);
 // }
 //   }
 // });
